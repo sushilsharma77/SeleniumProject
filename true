@@ -1,0 +1,189 @@
+[1589860417.386][INFO]: Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 5056
+[1589860417.386][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1589860418.149][INFO]: [9f4e234e292c75138c496a5f4de8b879] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1589860418.151][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1589860418.153][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1589860418.164][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\sushi\AppData\Local\Temp\scoped_dir53752_20263109\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\sushi\AppData\Local\Temp\scoped_dir53752_1377121931" data:,
+[1589860419.116][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1589860421.126][INFO]: [9f4e234e292c75138c496a5f4de8b879] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "81.0.4044.138",
+      "chrome": {
+         "chromedriverVersion": "81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776})",
+         "userDataDir": "C:\\Users\\sushi\\AppData\\Local\\Temp\\scoped_dir53752_1377121931"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:56775"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "9f4e234e292c75138c496a5f4de8b879"
+}
+[1589860421.201][INFO]: [9f4e234e292c75138c496a5f4de8b879] COMMAND Navigate {
+   "url": "http://samples.gwtproject.org/samples/Showcase/Showcase.html#!CwFileUpload"
+}
+[1589860421.201][INFO]: Waiting for pending navigations...
+[1589860421.204][INFO]: Done waiting for pending navigations. Status: ok
+[1589860421.367][INFO]: Waiting for pending navigations...
+[1589860421.557][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589860421.658][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589860421.687][INFO]: Done waiting for pending navigations. Status: ok
+[1589860421.687][INFO]: [9f4e234e292c75138c496a5f4de8b879] RESPONSE Navigate
+[1589860424.694][INFO]: [9f4e234e292c75138c496a5f4de8b879] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@class='gwt-FileUpload']"
+}
+[1589860424.694][INFO]: Waiting for pending navigations...
+[1589860424.695][INFO]: Done waiting for pending navigations. Status: ok
+[1589860424.703][INFO]: Waiting for pending navigations...
+[1589860424.703][INFO]: Done waiting for pending navigations. Status: ok
+[1589860424.703][INFO]: [9f4e234e292c75138c496a5f4de8b879] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "fd599884-864e-427c-b24f-a44ccd3c3c82"
+}
+[1589860424.716][INFO]: [9f4e234e292c75138c496a5f4de8b879] COMMAND TypeElement {
+   "id": "fd599884-864e-427c-b24f-a44ccd3c3c82",
+   "text": "C:\\Users\\sushi\\Documents\\test.xlsx",
+   "value": [ "C", ":", "\\", "U", "s", "e", "r", "s", "\\", "s", "u", "s", "h", "i", "\\", "D", "o", "c", "u", "..." ]
+}
+[1589860424.716][INFO]: Waiting for pending navigations...
+[1589860424.717][INFO]: Done waiting for pending navigations. Status: ok
+[1589860424.739][INFO]: Waiting for pending navigations...
+[1589860424.741][INFO]: Done waiting for pending navigations. Status: ok
+[1589860424.741][INFO]: [9f4e234e292c75138c496a5f4de8b879] RESPONSE TypeElement
+[1589860426.748][INFO]: [9f4e234e292c75138c496a5f4de8b879] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".gwt\\-Button"
+}
+[1589860426.748][INFO]: Waiting for pending navigations...
+[1589860426.750][INFO]: Done waiting for pending navigations. Status: ok
+[1589860426.763][INFO]: Waiting for pending navigations...
+[1589860426.764][INFO]: Done waiting for pending navigations. Status: ok
+[1589860426.765][INFO]: [9f4e234e292c75138c496a5f4de8b879] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "4c77cc52-865e-498b-860b-fa47029f24cf"
+}
+[1589860426.770][INFO]: [9f4e234e292c75138c496a5f4de8b879] COMMAND ClickElement {
+   "id": "4c77cc52-865e-498b-860b-fa47029f24cf"
+}
+[1589860426.770][INFO]: Waiting for pending navigations...
+[1589860426.772][INFO]: Done waiting for pending navigations. Status: ok
+[1589860426.830][INFO]: Waiting for pending navigations...
+[1589860426.830][INFO]: Done waiting for pending navigations. Status: unexpected alert open: {Alert text : File uploaded!}
+[1589860426.830][INFO]: [9f4e234e292c75138c496a5f4de8b879] RESPONSE ClickElement
+[1589860426.834][INFO]: [9f4e234e292c75138c496a5f4de8b879] COMMAND GetAlertMessage {
+
+}
+[1589860426.834][INFO]: Waiting for pending navigations...
+[1589860426.835][INFO]: Done waiting for pending navigations. Status: unexpected alert open: {Alert text : File uploaded!}
+[1589860426.835][INFO]: [9f4e234e292c75138c496a5f4de8b879] RESPONSE GetAlertMessage "File uploaded!"
+[1589860426.839][INFO]: [9f4e234e292c75138c496a5f4de8b879] COMMAND AcceptAlert {
+
+}
+[1589860426.839][INFO]: Waiting for pending navigations...
+[1589860426.839][INFO]: Done waiting for pending navigations. Status: unexpected alert open: {Alert text : File uploaded!}
+[1589860426.840][INFO]: [9f4e234e292c75138c496a5f4de8b879] RESPONSE AcceptAlert
+[1589860426.846][INFO]: [9f4e234e292c75138c496a5f4de8b879] COMMAND Screenshot {
+
+}
+[1589860426.846][INFO]: Waiting for pending navigations...
+[1589860426.847][INFO]: Done waiting for pending navigations. Status: ok
+[1589860427.220][INFO]: Waiting for pending navigations...
+[1589860427.221][INFO]: Done waiting for pending navigations. Status: ok
+[1589860427.221][INFO]: [9f4e234e292c75138c496a5f4de8b879] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABQ8AAANLCAYAAADvoGvvAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XlwXOd57/nv2XpFd2MlGgABElxFmlqhxaRkW5LlyIkV2aIiT0RlnDuOb5Rc51ZSGdfUVFmJokSuqanKpOZWjcuS7zhzxxnR15JJ24odO7Ysa7NoLSBFcRM3g..."
+[1589860430.287][INFO]: [9f4e234e292c75138c496a5f4de8b879] COMMAND CloseWindow {
+
+}
+[1589860434.628][INFO]: [9f4e234e292c75138c496a5f4de8b879] RESPONSE CloseWindow
